@@ -1,0 +1,370 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* CATALOG */
+
+.catalog-cont {
+  width: 200px;
+  margin: auto;
+  padding: 10px 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+.catalog-cont:hover{background-color: rgba(221, 221, 221, 0.514);}
+.catalog-cont img {
+  width: 200px;
+}
+
+.catalogs-cont {
+  display: flex;
+}
+
+
+/* COIN INFO */
+
+.info-img-block {
+  width: 50%;
+  
+}
+.info-img-block img{
+  width: 300px;
+  display: flex;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+.coin-info-block{
+  width: 50%;
+  background-color: rgba(196, 196, 196, 0.5);
+  padding: 20px 45px;
+}
+.coin-info-block p{
+  margin-bottom: 25px;
+  
+}
+.info-cont {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+}
+
+/* test */
+table { 
+  border-collapse: collapse;
+  width: 100%;
+
+
+}
+.tabl{
+  border-collapse: collapse;
+  border: hidden;
+  
+
+ 
+  
+}
+tr:nth-child(odd){
+  background-color: white;
+ 
+   
+}
+
+
+
+
+/* COIN LABEL */
+.coin-block {
+  width: 450px;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+
+}
+
+.coin-block:hover{background-color: rgba(221, 221, 221, 0.514);}
+/* .coin-block p {
+ 
+} */
+.coin-img {
+  width: 33%;
+}
+.coin-desc{
+  width: 60%;
+  margin-left: 20px;
+}
+.coin-img img{
+  width: 100%;
+}
+.head {
+  margin: 0;
+  color:  #833AE0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 5px;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+
+/* SEARCH BAR */
+.search-bar {
+  border-radius: 5px;
+  border: 1.2px solid black;
+  width: 350px;
+  height: 39px;
+  padding: 0 15px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.label-w{
+  font-weight: bold;
+}
+
+
+/* SEARCH BUTTON */
+.search-btn {
+  border: none;
+  color: white;
+  background-color:#833AE0;
+  padding: 14px 20px;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+.search-btn:hover {
+  background-color:rgb(106, 37, 196);
+}
+
+
+/* FILTER */
+.select-s{
+  padding: 10px 20px;
+  border: 1.2px solid black;
+  font-size: 20px;
+  margin-right: 20px;
+  width: 350px;
+  margin-bottom: 50px;
+}
+.select-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-box{
+  display: none;
+}
+.view-filt{
+  display: flex;
+}
+.filter-box input{
+  width: 150px;
+  margin-bottom: 50px;
+}
+.non {
+  display:none;
+}
+
+/* COIN LIST */
+
+.list-block {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+/* LOGIN */
+
+
+.login-cnt{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  align-items: center;
+  border: 1.2px solid black;
+  border-radius: 10px;
+}
+.login-cnt p {
+  color:red;
+}
+
+.login-cnt button {
+  margin: 0 auto;
+  margin-top: 15px;
+
+}
+.login-inp input {
+  margin-bottom: 15px;
+  width: 320px;
+}
+.login-inp {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ADD PAGE */
+
+.add-page-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.add-page-box div{
+  display: flex;
+  flex-direction: column;
+}
+
+/* PAGINATION/ */
+
+.pag {
+  list-style: none;
+  border: 1.5px solid #833AE0;
+  color: #833AE0;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.page-list li:hover {background-color: #833AE0; color: white;}
+
+.pag-active {
+  background-color: #833AE0; 
+  color: white;
+}
+
+.page-list {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  
+}
+
+/* LOGO */
+.site-name {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.site-name img {
+  width: 20%;
+}
+/* EXT */
+.head-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  margin-bottom: 50px;
+}
+
+.coin-adm-btn {
+  width: 130px;
+}
+
+a {
+  text-decoration: none;
+  color: #833AE0;
+
+}
+a:active {
+  color: #833AE0;
+}
+.adm-btn {
+  border: none;
+  color: white;
+  background-color:#833AE0;
+  padding: 14px 20px;
+  text-align: center;
+
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 5px;
+
+}
+.adm-btn:hover {
+  background-color:rgb(106, 37, 196);
+}
+
+.add-page-btn-block {
+  margin-top: 230px;
+}
+.pagin-blk{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pagin-blk select{
+  width: 50px;
+  height: 30px;
+}
+.pagin-blk label {
+  margin-right: 20px;
+}
+
+.modal-box {
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  position: fixed;
+  height: 100%;
+}
+.modal-box button:hover {
+  background-color:rgb(106, 37, 196);
+}
+.modalword {
+  color:#833AE0;
+  font-weight: bold;
+}
+
+.login-block {
+  background-color: white;
+  top: 140px;
+  width: 100%;
+  height: 100%;
+  padding-top: 140px;
+  position: absolute;
+}
+
+.select-opt-box {
+  border: 1.5px solid #833AE0;
+  color:#833AE0;
+  border-radius: 5px;
+  font-weight: bold;
+  /* font-size: 16px; */
+
+}
+.select-opt-box option {
+  font-weight: bold;
+  color:#833AE0;
+
+  /* background-color:rgb(106, 37, 196); */
+
+
+}
+
+.pagin-blk label {
+  color:#833AE0;
+  font-weight: 700;
+
+}
